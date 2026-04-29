@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: 🎉 Trabajo de Despliegue
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latesta
 
     steps:
       - name: 🚚 Obteniendo el código más reciente
@@ -18,7 +18,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp-repoclase.alwaysdata.net # Change if using another host
-          username: ${{ secrets.FTP_USERNAME }}
+          username: ${{ secrets. }FTP_USERNAME}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: www/ # Replace with your correct path
           protocol: ftps
