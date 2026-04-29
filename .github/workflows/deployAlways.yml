@@ -22,7 +22,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: www/ # Replace with your correct path
           protocol: ftps
-          timeout: 86400000
+          timeout: 86400
           log-level: standard
           exclude: |
            .git/**
