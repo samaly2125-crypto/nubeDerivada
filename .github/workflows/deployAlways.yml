@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: 🎉 Trabajo de Despliegue
-    runs-on: ubuntu-latesta
+    runs-on: ubuntu-latest
 
     steps:
       - name: 🚚 Obteniendo el código más reciente
